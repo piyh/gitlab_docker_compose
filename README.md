@@ -6,11 +6,11 @@ Boilerplate to use in your gitlab-ci.yml is as follows
 
 
 
-image: piyh/gitlab_docker_compose:19.03.12
+  image: piyh/gitlab_docker_compose:19.03.12
 
-variables:
-  DOCKER_TLS_CERTDIR: "/certs"
-  DOCKER_DRIVER: overlay2
+  variables:
+    DOCKER_TLS_CERTDIR: "/certs"
+    DOCKER_DRIVER: overlay2
 
-services:
-  - docker:19.03.12-dind  # necessary for docker to build and run my images 
+  services:
+    - docker:19.03.12-dind  # necessary for docker to build and run my images 
