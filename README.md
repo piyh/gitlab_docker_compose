@@ -1,6 +1,7 @@
 # gitlab_docker_compose
 a docker compose image to use with dind in gitlab
-installing docker compose is a pain in the ass in gitab if you're using docker.  This repo is so I don't forget how to do it and if you want to as well
+installing docker compose is a pain in the ass in gitab if you're using docker.  This repo is so I don't forget how to do it and if you want to as well.
+There's other similar images like tmaier's, but this has a completely permissive license.
 
 Boilerplate to use in your gitlab-ci.yml is as follows 
 
