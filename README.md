@@ -6,14 +6,14 @@ There's other similar images like tmaier's, but this has a completely permissive
 
 Boilerplate to use in your gitlab-ci.yml is as follows 
 
-    image: piyh/gitlab_docker_compose:19.03.12
+    image: piyh/gitlab_docker_compose:24.0.6-dind-rootless
 
     variables:
       DOCKER_TLS_CERTDIR: "/certs"
       DOCKER_DRIVER: overlay2
 
     services:
-      - docker:19.03.12-dind  # necessary for docker to build and run my images 
+      - docker:24.0.6-dind-rootless  # necessary for docker to build and run my images 
 
     compose-build:
       stage: build
