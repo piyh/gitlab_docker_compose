@@ -17,9 +17,4 @@ RUN echo \
 RUN apt-get update
 
 
-#RUN apt-get install -y --no-install-recommends docker.io docker-compose
 RUN apt-get install -y --no-install-recommends docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
-# END DOCKER REPO CONFIG
-
-# docker build . -t piyh/gitlab_docker_compose:22.04
-# docker push piyh/gitlab_docker_compose:22.04
