@@ -1,3 +1,9 @@
+# DEPRECATED
+
+<mark>THIS REPO IS DEPRECATED</mark>
+
+You shouldn't need this repo anymore, you can use `docker:latest` and follow the stock DIND documentation to use `docker compose`.
+
 # gitlab_docker_compose
 a docker compose image to use with dind in gitlab.
 
